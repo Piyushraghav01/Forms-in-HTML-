@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking form</title>
+  </head>
+  <body>
+    <h1>Schedule Your Holiday on Paradise Island</h1>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="fullname" required />
+      <br /><br />
+
+      <label for="mail">Email:</label>
+      <input
+        type="email"
+        id="mail"
+        name="email"
+        placeholder="abc@gmail.com"
+        required
+      />
+      <br /><br />
+
+      <label for="phone">Phone:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="+91-894746543"
+        required
+      />
+      <br /><br />
+
+      <label for="dob">Date of Birth:</label>
+      <input
+        type="date"
+        id="dob"
+        name="dob"
+        min="2021-01-01"
+        max="2025-12-01"
+        required
+      />
+      <br /><br />
+
+      <label for="arr">Arrival:</label>
+      <input type="datetime-local" id="arr" name="arrival" required />
+      <br /><br />
+
+      <label for="dep">Departure:</label>
+      <input type="datetime-local" id="dep" name="departure" required />
+      
+      <br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
